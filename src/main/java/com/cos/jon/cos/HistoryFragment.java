@@ -22,7 +22,7 @@ public class HistoryFragment extends Fragment {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Your balance is RMxx.xx", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Your balance is RMxx.xx", Snackbar.LENGTH_SHORT)
                         .setAction("Action", null).show();
             }
         });

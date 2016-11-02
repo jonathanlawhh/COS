@@ -18,12 +18,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
-                android:text="Status    :  PENDING" />
+                android:text="Status    :  COOKING" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
-                android:text="Order ID :  25102016" />
+                android:text="Order ID :  02112016" />
             <Button
                 android:text="Cancel Order"
                 android:layout_width="match_parent"

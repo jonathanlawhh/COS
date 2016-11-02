@@ -37,7 +37,7 @@
                 android:layout_height="wrap_content"
                 card_view:cardCornerRadius="2dp">
 
-                <ImageView android:layout_width="150dp" android:layout_height="150dp" android:src="@drawable/friedrice" />
+                <ImageView android:layout_width="150dp" android:layout_height="150dp" android:src="@drawable/friedrice" android:id="@+id/choosefood" />
                 <TextView
                        android:layout_width="wrap_content"
                        android:layout_height="wrap_content"
@@ -173,7 +173,6 @@
                 android:layout_marginBottom="75dp"
                 card_view:cardCornerRadius="2dp">
 
-                <ImageView android:layout_width="150dp" android:layout_height="150dp" android:src="@drawable/milo"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -190,6 +189,8 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:text="RM 1" />
+
+                <ImageView android:layout_width="150dp" android:layout_height="150dp" android:src="@drawable/milo" android:id="@+id/choosedrink"/>
             </android.support.v7.widget.CardView>
         </TableRow>
     </LinearLayout>

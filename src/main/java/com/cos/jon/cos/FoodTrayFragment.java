@@ -36,7 +36,7 @@ public class FoodTrayFragment extends Fragment {
                         .setNegativeButton("Yes", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
                                 Toast.makeText(getActivity(), "Your order has been cancelled.",
-                                        Toast.LENGTH_LONG).show();
+                                        Toast.LENGTH_SHORT).show();
                             }
                         });
 
